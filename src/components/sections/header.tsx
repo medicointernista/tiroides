@@ -6,10 +6,13 @@ const Header = () => {
     <header className="relative w-full z-50">
       {/* Top Banner Bar */}
       <div className="bg-[#1080A0] text-[#F8FAFC]">
-        <div className="container mx-auto px-6 py-2 max-w-[1400px]">
-          <div className="text-center">
-            <span className="text-[14px] font-semibold tracking-wide uppercase">
+        <div className="container mx-auto px-6 py-3 max-w-[1400px]">
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            <span className="text-[14px] font-semibold tracking-wide uppercase flex-1 text-center md:text-left">
               Consulta Especializada en Desequilibrio Tiroideo - Medellín
+            </span>
+            <span className="text-[13px] font-medium tracking-wide whitespace-nowrap">
+              Lunes a viernes: 8am a 5pm
             </span>
           </div>
         </div>
