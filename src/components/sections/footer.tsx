@@ -10,8 +10,7 @@ import {
   Phone,
   Mail,
   Clock,
-  ChevronUp,
-  Music
+  ChevronUp
 } from 'lucide-react';
 
 const Footer = () => {
@@ -70,7 +69,9 @@ const Footer = () => {
                 className="flex items-center justify-center w-8 h-8 rounded-full border border-[#E2E8F0] text-[#1080A0] hover:bg-[#E1F1F6] transition-colors"
                 aria-label="TikTok"
               >
-                <Music size={16} />
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.68v12.7a2.85 2.85 0 1 1-5.45-2.36c.09-.78.71-1.44 1.6-1.49v-3.66a6.62 6.62 0 0 0-5.44 10.46 6.59 6.59 0 0 0 5.63 2.85c3.54 0 6.43-2.89 6.43-6.47V9.5a8.19 8.19 0 0 0 5.85 2.35v-3.72a4.9 4.9 0 0 1-.34-.03z"/>
+                </svg>
               </a>
             </div>
           </div>

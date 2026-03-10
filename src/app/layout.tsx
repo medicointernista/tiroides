@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     robots: "index, follow",
     viewport: "width=device-width, initial-scale=1",
     icons: {
-      icon: "/icon.png",
+      icon: "/Favicon_willmer_obregon.png",
       apple: "/apple-icon.png",
     },
   };
