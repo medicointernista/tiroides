@@ -6,19 +6,19 @@ const services = [
       title: "Evaluación Integral",
       description: "Historia clínica completa y examen físico detallado para identificar la causa exacta del desbalance tiroideo.",
       image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/1df2619e-61e7-480c-b9fe-1a1ae30e00b0/tiroides-Evaluacion-Integral-1769346123480.jpg?width=8000&height=8000&resize=contain",
-      alt: "Evaluación médica tiroides Medellín - Dr. Willmer Obregón"
+      alt: "Evaluación integral desbalance tiroideo - historia clínica y examen físico especializado en Medellín con Dr. Willmer Obregón"
     },
     {
       title: "Plan Personalizado",
       description: "Tratamiento con medicación, recomendaciones dietéticas y medidas prácticas adaptadas a tu rutina diaria.",
       image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/1df2619e-61e7-480c-b9fe-1a1ae30e00b0/Plan-Personalizado-tiroides-1769346032145.jpg?width=8000&height=8000&resize=contain",
-      alt: "Plan de tratamiento tiroides personalizado Medellín"
+      alt: "Plan de tratamiento personalizado para hipotiroidismo e hipertiroidismo - medicación y dieta especializada en Medellín"
     },
     {
       title: "Seguimiento Continuo",
       description: "Monitoreo periódico con ajustes necesarios para asegurar tu mejora continua y bienestar a largo plazo.",
       image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/1df2619e-61e7-480c-b9fe-1a1ae30e00b0/Seguimiento-Continuo-tiroides-1769345971539.jpg?width=8000&height=8000&resize=contain",
-      alt: "Seguimiento médico desbalance tiroideo Medellín"
+      alt: "Seguimiento continuo y monitoreo de desbalance tiroideo - control periódico de tiroides y ajuste de dosis en Medellín"
     }
 ];
 
@@ -29,7 +29,7 @@ const ServicesSection = () => {
         {/* Header Section */}
         <div className="max-w-3xl mb-12 animate-in fade-in slide-in-from-bottom-5 duration-700">
           <h2 className="text-[1.875rem] md:text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2]">
-            Atención Especializada en Medicina Interna y Tiroides
+            Plan de Tratamiento Integral para Desbalance Tiroideo
           </h2>
           <p className="mt-4 text-[1rem] md:text-[1.125rem] leading-[1.6] text-[#64748B]">
             Ofrecemos un enfoque integral para regular tu metabolismo y recuperar tu energía. Además del diagnóstico tiroideo, contamos con servicios especializados de apoyo diagnóstico.
@@ -50,6 +50,7 @@ const ServicesSection = () => {
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  loading="lazy"
                 />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#F8F9FA]/10 via-transparent to-transparent"></div>
               </figure>

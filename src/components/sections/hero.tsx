@@ -23,9 +23,9 @@ export default function HeroSection() {
               Recupera tu vitalidad y equilibrio
             </div>
 
-              {/* Main Headline */}
+              {/* Main Headline - Primary H1 */}
                 <h1 className="mt-6 text-balance text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-tight md:text-[3rem] lg:text-[3.75rem]">
-                  Desbalance de <span className="text-[#1080A0]">Tiroides</span> en Medellín - Dr. Willmer Obregón
+                  Consulta Especializada en Desbalance de <span className="text-[#1080A0]">Tiroides</span> en Medellín
                 </h1>
 
             {/* Value Proposition Description */}
