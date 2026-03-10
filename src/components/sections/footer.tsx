@@ -2,15 +2,16 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { 
-  Facebook, 
-  Instagram, 
-  Youtube, 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Clock, 
-  ChevronUp 
+import {
+  Facebook,
+  Instagram,
+  Youtube,
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  ChevronUp,
+  Music
 } from 'lucide-react';
 
 const Footer = () => {
@@ -53,14 +54,23 @@ const Footer = () => {
               >
                 <Instagram size={16} />
               </a>
-              <a 
-                href="https://www.youtube.com/@tuinternistafavorito" 
+              <a
+                href="https://www.youtube.com/@tuinternistafavorito"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-8 h-8 rounded-full border border-[#E2E8F0] text-[#1080A0] hover:bg-[#E1F1F6] transition-colors"
                 aria-label="Youtube"
               >
                 <Youtube size={16} />
+              </a>
+              <a
+                href="https://www.tiktok.com/@tuinternistafavorito"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-8 h-8 rounded-full border border-[#E2E8F0] text-[#1080A0] hover:bg-[#E1F1F6] transition-colors"
+                aria-label="TikTok"
+              >
+                <Music size={16} />
               </a>
             </div>
           </div>
@@ -106,8 +116,26 @@ const Footer = () => {
             <ul className="space-y-4 mb-8">
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-[#1080A0] shrink-0" />
-                <a href="mailto:tuinternistafavorito@gmail.com" className="text-[0.9375rem] text-[#64748B] hover:text-[#1080A0] transition-colors break-all">
-                  tuinternistafavorito@gmail.com
+                <a href="mailto:consulta@internistamedellin.com" className="text-[0.9375rem] text-[#64748B] hover:text-[#1080A0] transition-colors break-all">
+                  consulta@internistamedellin.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail size={18} className="text-[#1080A0] shrink-0" />
+                <a href="mailto:asistente@internistamedellin.com" className="text-[0.9375rem] text-[#64748B] hover:text-[#1080A0] transition-colors break-all">
+                  asistente@internistamedellin.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail size={18} className="text-[#1080A0] shrink-0" />
+                <a href="mailto:estudios@internistamedellin.com" className="text-[0.9375rem] text-[#64748B] hover:text-[#1080A0] transition-colors break-all">
+                  estudios@internistamedellin.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail size={18} className="text-[#1080A0] shrink-0" />
+                <a href="mailto:procedimientos@internistamedellin.com" className="text-[0.9375rem] text-[#64748B] hover:text-[#1080A0] transition-colors break-all">
+                  procedimientos@internistamedellin.com
                 </a>
               </li>
             </ul>
@@ -120,8 +148,7 @@ const Footer = () => {
                 </span>
               </div>
               <div className="text-[0.875rem] text-[#64748B] leading-relaxed">
-                <p>Lunes a viernes: 7:00 am - 12:00 pm</p>
-                <p>Lunes a viernes: 1:30 pm - 5:00 pm</p>
+                <p>Lunes a viernes: 8:00 am - 5:00 pm</p>
               </div>
             </div>
           </div>

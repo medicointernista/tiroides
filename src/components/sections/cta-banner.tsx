@@ -32,7 +32,7 @@ export default function CtaBanner() {
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               {/* WhatsApp Button */}
               <a
-                href="https://api.whatsapp.com/send?phone=573009895852&text=Hola%20vi%20el%20sitio%20en%20Google%2C%20quiero%20informaci%C3%B3n%20de%20la%20consulta%20tiroidea."
+                href="https://api.whatsapp.com/send?phone=573005979628&text=Hola%20vi%20el%20sitio%20en%20Google%2C%20quiero%20informaci%C3%B3n%20de%20la%20consulta%20tiroidea."
                 className="inline-flex h-[54px] min-w-[200px] items-center justify-center gap-2 rounded-full bg-[#1080A0] px-8 text-[15px] font-bold text-white shadow-[0_10px_15px_-3px_rgba(16,128,160,0.3)] transition-all hover:scale-[1.02] hover:bg-[#0D6E8A]"
               >
                 Enviar WhatsApp
@@ -40,7 +40,7 @@ export default function CtaBanner() {
 
               {/* Phone Button */}
               <a
-                href="tel:+573011505174"
+                href="tel:+573009895852"
                 className="inline-flex h-[54px] min-w-[200px] items-center justify-center gap-2 rounded-full bg-[#E1F1F6] px-8 text-[15px] font-bold text-[#1080A0] transition-all hover:scale-[1.02] hover:bg-[#D4EAF1]"
               >
                 <Phone className="h-4 w-4" strokeWidth={2.5} />
