@@ -6,13 +6,10 @@ const Header = () => {
     <header className="relative w-full z-50">
       {/* Top Banner Bar */}
       <div className="bg-[#1080A0] text-[#F8FAFC]">
-        <div className="container mx-auto px-6 py-3 max-w-[1400px]">
-          <div className="flex items-center justify-between gap-4 flex-wrap">
-            <span className="text-[14px] font-semibold tracking-wide uppercase flex-1 text-center md:text-left">
+        <div className="container mx-auto px-6 py-2 max-w-[1400px]">
+          <div className="text-center">
+            <span className="text-[14px] font-semibold tracking-wide uppercase">
               Consulta Especializada en Desequilibrio Tiroideo - Medellín
-            </span>
-            <span className="text-[13px] font-medium tracking-wide whitespace-nowrap">
-              Lunes a viernes: 8am a 5pm
             </span>
           </div>
         </div>
@@ -41,7 +38,7 @@ const Header = () => {
             {/* CTA Section */}
             <div className="flex items-center gap-3">
               <a
-                href="https://api.whatsapp.com/send?phone=573011505174&text=Hola%20vi%20el%20sitio%20en%20Google%2C%20quiero%20informaci%C3%B3n%20de%20la%20consulta."
+                href="https://api.whatsapp.com/send?phone=573011505174&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
                 className="items-center justify-center gap-2 whitespace-nowrap rounded-[24px] text-[15px] font-bold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1080A0] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 inline-flex bg-gradient-to-r from-[#1080A0] to-[#0D6E8A] text-white shadow-lg hover:shadow-[#1080A0]/30 hover:scale-[1.02] h-[48px] px-6 py-2"
               >
                 Agendar por WhatsApp
