@@ -32,7 +32,7 @@ export default function CtaBanner() {
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               {/* WhatsApp Button */}
               <a
-                href="https://api.whatsapp.com/send?phone=573005979628&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
+                href="https://api.whatsapp.com/send?phone=573011505174&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
                 className="inline-flex h-[54px] min-w-[200px] items-center justify-center gap-2 rounded-full bg-[#1080A0] px-8 text-[15px] font-bold text-white shadow-[0_10px_15px_-3px_rgba(16,128,160,0.3)] transition-all hover:scale-[1.02] hover:bg-[#0D6E8A]"
               >
                 Enviar WhatsApp
