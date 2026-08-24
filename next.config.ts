@@ -23,13 +23,13 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  turbopack: {
+  turbopack: process.env.ORCHIDS_VISUAL_EDIT === "true" ? {
     rules: {
       "*.{jsx,tsx}": {
         loaders: [LOADER]
       }
     }
-  }
+  } : undefined
 };
 
 export default nextConfig;
