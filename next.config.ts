@@ -23,13 +23,13 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  turbopack: process.env.ORCHIDS_VISUAL_EDIT === "true" ? {
-    rules: {
-      "*.{jsx,tsx}": {
-        loaders: [LOADER]
-      }
-    }
-  } : undefined
+  webpack: process.env.ORCHIDS_VISUAL_EDIT === "true" ? (config) => {
+    config.module.rules.push({
+      test: /\.(jsx|tsx)$/,
+      use: [LOADER],
+    });
+    return config;
+  } : undefined,
 };
 
 export default nextConfig;
